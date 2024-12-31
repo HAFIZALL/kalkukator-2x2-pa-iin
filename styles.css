@@ -1,0 +1,44 @@
+body {
+    background-color: #007BFF; /* Latar belakang biru */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28A745; /* Warna tombol hijau */
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838; /* Warna tombol hijau saat hover */
+}
